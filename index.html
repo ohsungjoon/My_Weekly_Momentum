@@ -7,13 +7,23 @@
 
     </head>
     <body>
+        <form class="reset">
+            <input type="button" value="Reset">
+
+        <span class="js_weather"></span>
+        </form>
         <div id="all">
             <div id="content">
+                <div class="js_today">
+                    <h3>0000.00.00</h3>
+                </div>
+                <div class="js_clock">
+                    <h1>00:00:00</h1>
+                </div>
                 <form class="input_name name_form">
                     <input type="text" placeholder="name">
                 </form>
                 <h4 class="who_is_user name_form"></h4>
-
                 <form class="start_date date_form">
                     <h5 id="days">Start Day</h5>
                     <input type="date">
@@ -35,9 +45,11 @@
                 <div id="week"></div>
             </div>
         </div>
+        <script src="clock.js"></script>
+        <script src="weather.js"></script>
+        <script src="reset.js"></script>
         <script src="background.js"></script>
         <script src="name.js"></script>
         <script src="show_date.js"></script>
-
     </body>
 </html>

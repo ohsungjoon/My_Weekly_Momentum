@@ -35,6 +35,20 @@ input{
     flex-direction: row;
 }
 
+.js_weather{
+    position:absolute;
+    right:20px;
+    top:0px;
+}
+
+.js_today{
+    margin-bottom: -15px;
+}
+
+.js_clock{
+    margin-top: -15px;
+}
+
 .div_week{
     display: flex;
     justify-content: center;
