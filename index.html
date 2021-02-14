@@ -1,0 +1,41 @@
+<html>
+    <head>  
+        <title>My Weekly Momentum</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <div id="all">
+            <div id="content">
+                <form class="input_name name_form">
+                    <input type="text" placeholder="name">
+                </form>
+                <h4 class="who_is_user name_form"></h4>
+
+                <form class="start_date date_form">
+                    <h5 id="days">Start Day</h5>
+                    <input type="date">
+                    <input type="submit" value="Submit">
+                </form>
+                <form class="end_date date_form">
+                    <h5 id="days">End Day</h5>
+                    <input type="date">
+                    <input type="submit" value="Submit">
+                </form>
+                <h5 class="result_date date_form"></h5>
+
+                <form class="input_Weekly_to_do todo_form">
+                    <input type="text", placeholder="ToDo(Weekly)">
+                    <input type="submit" value="Submit">
+                </form>
+                <div id="weekly"><ul class="weekly_todo"></ul></div>
+                
+                <div id="week"></div>
+            </div>
+        </div>
+        <script src="background.js"></script>
+        <script src="name.js"></script>
+        <script src="show_date.js"></script>
+
+    </body>
+</html>

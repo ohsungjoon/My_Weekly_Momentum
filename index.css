@@ -1,0 +1,73 @@
+body{
+    margin:0;
+}
+
+#all{
+    width: 100vw;
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+input{
+    color:white;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+::placeholder{
+    color:white;
+}
+
+#days{
+    margin-bottom: 10px;
+}
+
+#mb{
+    margin-bottom: 5px;
+}
+
+#week{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.div_week{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input:focus{
+    outline:none;
+}
+
+.name_form{
+    display: none;
+}
+
+.date_form{
+    display:none;
+}
+
+.todo_form{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
