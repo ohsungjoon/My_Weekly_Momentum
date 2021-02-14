@@ -42,6 +42,10 @@ input{
     flex-direction: column;
 }
 
+.daily_todo{
+    color:white;
+}
+
 input:focus{
     outline:none;
 }
