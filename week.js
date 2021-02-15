@@ -36,7 +36,7 @@ function make_submit_each(){
         const input1=document.createElement("input");
 
         input1.type="text";
-        input1.placeholder=`${each.year}-${each.month}-${each.day}`;
+        input1.placeholder=`${each.year}-${each.month+1}-${each.day}`;
 
         form_week.appendChild(input1);
 
